@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Home</title>
+		<title>Contact</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="google-site-verification" content="EfsTBO13dfsP0jr2Ac1OFtMbymskaa4fAOva9Z8SgV4" />
@@ -15,14 +15,19 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 		<link rel="stylesheet" href="assets/css/main.css"/>
 		<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Advent+Pro:600" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Oleo+Script" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 		<script src="assets/js/main.js"></script>
 	</head>
-	<header>
-	<!-- Header -->
+	
+	
+	<div id="main">
+	<body>
+	<script>document.body.className += ' fade-out';</script>
+		<!-- Header -->
+
 		<nav class="navbar navbar-inverted navbar-static-top">
   <div class="container-fluid">
   <div id="logo">
@@ -31,27 +36,47 @@
     <ul class="nav1">
 			<li><a href="index.html">Home</a></li>
 			<li><a href="about.html">About Me</a></li>
-			<li><a href="contact.html">Contact</a></li>
+			<li><a href="#">Contact</a></li>
 		</ul>
 		
   </div>
 </nav>
-	</header>
-	<div id="main">
-	<body>
-	<script>document.body.className += ' fade-out';</script>
-		
 
 
-		<div class="top">
-			<h1>Welcome</h1>
-		</div>
-			<!-- <script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script> -->
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+		<div class="container-fluid">
+		<div id="contact_form_title">
+		<h1><font color="white">Contact Form</font></h1>
+	</div>
+		<div class="contact_form">
+		<form class="form-horizontal">
+  <div class="form-group">
+    <label for="inputEmail3" class="col-sm-2 control-label"><font color="#E0E0E0">Name</font></label>
+    <div class="col-sm-5">
+      <input type="text" class="form-control" id="inputText3" placeholder="First Name">
+    </div>
+	<div class="col-md-5">
+      <input type="text" class="form-control" id="inputText3" placeholder="Last Name">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputPassword3" class="col-sm-2 control-label"><font color="#E0E0E0">Email</font></label>
+    <div class="col-sm-10">
+      <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <textarea class="form-control" rows="5"></textarea>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <button type="submit" class="btn btn-default">Submit</button>
+    </div>
+  </div>
+</form>
+</div>
+</div>
 	</body>
 	</div>
 </html>
