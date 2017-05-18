@@ -3,10 +3,14 @@ body {
 	background-color: #232324;
     opacity: 1;
     transition: 1s opacity;
+    height: 100%;
 }
 body.fade-out {
     opacity: 0;
     transition: none;
+}
+hr {
+	width: 50%;
 }
 .about_main {
 	color: white;
@@ -36,10 +40,15 @@ body.fade-out {
 	font-family: 'Oleo Script', cursive;
 }
 .top {
-	font-family: 'Advent Pro', sans-serif;
-	color: white;
+	font-family: 'Open Sans', sans-serif;
+	color: #2ecc71;
 	text-align: center;
 	padding-top: 50px;
+}
+.about_me {
+	color: white;
+	text-align: center;
+	padding-top: 15px;
 }
 .navigation {
 	font-family: 'Open Sans', sans-serif;
@@ -59,9 +68,29 @@ body.fade-out {
 	float: center;
 	padding-left: 50px;
 }
+.portfolio {
+
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	font-size: 40px;
+  background: -webkit-linear-gradient(#ecf0f1, #bdc3c7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+footer {
+	font-family: 'Open Sans', sans-serif;
+	position: absolute;
+	bottom: 0;
+}
+h1 {
+	font-size: 40px;
+  background: -webkit-linear-gradient(#ecf0f1, #bdc3c7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 li {
 	display: inline-block;
-	padding-right: 20px;
+	padding-right: 10px;
 	font-family: 'Montserrat', sans-serif;
 }
 a {
